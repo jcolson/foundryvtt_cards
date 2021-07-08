@@ -1,0 +1,116 @@
+name: 1-great-dalmuti
+sdfv: 0.1
+img: 1-great-dalmuti.png
+back: card-back.png
+data:
+  value: 1
+  suit: Dalmuti
+qty: 1
+---
+name: 2-mind-minister
+sdfv: 0.1
+img: 2-mind-minister.png
+back: card-back.png
+data:
+  value: 2
+  suit: Dalmuti
+qty: 2
+---
+name: 3-solicitor
+sdfv: 0.1
+img: 3-solicitor.png
+back: card-back.png
+data:
+  value: 3
+  suit: Dalmuti
+qty: 3
+---
+name: 4-baronessss
+sdfv: 0.1
+img: 4-baronessss.png
+back: card-back.png
+data:
+  value: 4
+  suit: Dalmuti
+qty: 4
+---
+name: 5-occultist
+sdfv: 0.1
+img: 5-occultist.png
+back: card-back.png
+data:
+  value: 5
+  suit: Dalmuti
+qty: 5
+---
+name: 6-templar
+sdfv: 0.1
+img: 6-templar.png
+back: card-back.png
+data:
+  value: 6
+  suit: Dalmuti
+qty: 6
+---
+name: 7-spinner
+sdfv: 0.1
+img: 7-spinner.png
+back: card-back.png
+data:
+  value: 7
+  suit: Dalmuti
+qty: 7
+---
+name: 8-artisan
+sdfv: 0.1
+img: 8-artisan.png
+back: card-back.png
+data:
+  value: 8
+  suit: Dalmuti
+qty: 8
+---
+name: 9-apothecary
+sdfv: 0.1
+img: 9-apothecary.png
+back: card-back.png
+data:
+  value: 9
+  suit: Dalmuti
+qty: 9
+---
+name: 10-breeder
+sdfv: 0.1
+img: 10-breeder.png
+back: card-back.png
+data:
+  value: 10
+  suit: Dalmuti
+qty: 10
+---
+name: 11-exterminator
+sdfv: 0.1
+img: 11-exterminator.png
+back: card-back.png
+data:
+  value: 11
+  suit: Dalmuti
+qty: 11
+---
+name: 12-rat-catcher
+sdfv: 0.1
+img: 12-rat-catcher.png
+back: card-back.png
+data:
+  value: 12
+  suit: Dalmuti
+qty: 12
+---
+name: 13-fool
+sdfv: 0.1
+img: 13-fool.png
+back: card-back.png
+data:
+  value: 13
+  suit: Dalmuti
+qty: 13
