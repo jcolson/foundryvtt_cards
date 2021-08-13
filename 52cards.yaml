@@ -1,0 +1,485 @@
+name: 2_of_clubs
+sdfv: 0.1
+img: 2_of_clubs.png
+back: gray_back.png
+data:
+  value: 2
+  suit: Clubs
+qty: 1
+---
+name: 3_of_clubs
+sdfv: 0.1
+img: 3_of_clubs.png
+back: gray_back.png
+data:
+  value: 3
+  suit: Clubs
+qty: 1
+---
+name: 4_of_clubs
+sdfv: 0.1
+img: 4_of_clubs.png
+back: gray_back.png
+data:
+  value: 4
+  suit: Clubs
+qty: 1
+---
+name: 5_of_clubs
+sdfv: 0.1
+img: 5_of_clubs.png
+back: gray_back.png
+data:
+  value: 5
+  suit: Clubs
+qty: 1
+---
+name: 6_of_clubs
+sdfv: 0.1
+img: 6_of_clubs.png
+back: gray_back.png
+data:
+  value: 6
+  suit: Clubs
+qty: 1
+---
+name: 7_of_clubs
+sdfv: 0.1
+img: 7_of_clubs.png
+back: gray_back.png
+data:
+  value: 7
+  suit: Clubs
+qty: 1
+---
+name: 8_of_clubs
+sdfv: 0.1
+img: 8_of_clubs.png
+back: gray_back.png
+data:
+  value: 8
+  suit: Clubs
+qty: 1
+---
+name: 9_of_clubs
+sdfv: 0.1
+img: 9_of_clubs.png
+back: gray_back.png
+data:
+  value: 9
+  suit: Clubs
+qty: 1
+---
+name: 10_of_clubs
+sdfv: 0.1
+img: 10_of_clubs.png
+back: gray_back.png
+data:
+  value: 10
+  suit: Clubs
+qty: 1
+---
+name: ace_of_clubs
+sdfv: 0.1
+img: ace_of_clubs.png
+back: gray_back.png
+data:
+  value: 1
+  suit: Clubs
+qty: 1
+---
+name: jack_of_clubs
+sdfv: 0.1
+img: jack_of_clubs.png
+back: gray_back.png
+data:
+  value: 11
+  suit: Clubs
+qty: 1
+---
+name: king_of_clubs
+sdfv: 0.1
+img: king_of_clubs.png
+back: gray_back.png
+data:
+  value: 13
+  suit: Clubs
+qty: 1
+---
+name: queen_of_clubs
+sdfv: 0.1
+img: queen_of_clubs.png
+back: gray_back.png
+data:
+  value: 12
+  suit: Clubs
+qty: 1
+---
+name: 2_of_diamonds
+sdfv: 0.1
+img: 2_of_diamonds.png
+back: gray_back.png
+data:
+  value: 2
+  suit: Diamonds
+qty: 1
+---
+name: 3_of_diamonds
+sdfv: 0.1
+img: 3_of_diamonds.png
+back: gray_back.png
+data:
+  value: 3
+  suit: Diamonds
+qty: 1
+---
+name: 4_of_diamonds
+sdfv: 0.1
+img: 4_of_diamonds.png
+back: gray_back.png
+data:
+  value: 4
+  suit: Diamonds
+qty: 1
+---
+name: 5_of_diamonds
+sdfv: 0.1
+img: 5_of_diamonds.png
+back: gray_back.png
+data:
+  value: 5
+  suit: Diamonds
+qty: 1
+---
+name: 6_of_diamonds
+sdfv: 0.1
+img: 6_of_diamonds.png
+back: gray_back.png
+data:
+  value: 6
+  suit: Diamonds
+qty: 1
+---
+name: 7_of_diamonds
+sdfv: 0.1
+img: 7_of_diamonds.png
+back: gray_back.png
+data:
+  value: 7
+  suit: Diamonds
+qty: 1
+---
+name: 8_of_diamonds
+sdfv: 0.1
+img: 8_of_diamonds.png
+back: gray_back.png
+data:
+  value: 8
+  suit: Diamonds
+qty: 1
+---
+name: 9_of_diamonds
+sdfv: 0.1
+img: 9_of_diamonds.png
+back: gray_back.png
+data:
+  value: 9
+  suit: Diamonds
+qty: 1
+---
+name: 10_of_diamonds
+sdfv: 0.1
+img: 10_of_diamonds.png
+back: gray_back.png
+data:
+  value: 10
+  suit: Diamonds
+qty: 1
+---
+name: ace_of_diamonds
+sdfv: 0.1
+img: ace_of_diamonds.png
+back: gray_back.png
+data:
+  value: 1
+  suit: Diamonds
+qty: 1
+---
+name: jack_of_diamonds
+sdfv: 0.1
+img: jack_of_diamonds.png
+back: gray_back.png
+data:
+  value: 11
+  suit: Diamonds
+qty: 1
+---
+name: king_of_diamonds
+sdfv: 0.1
+img: king_of_diamonds.png
+back: gray_back.png
+data:
+  value: 13
+  suit: Diamonds
+qty: 1
+---
+name: queen_of_diamonds
+sdfv: 0.1
+img: queen_of_diamonds.png
+back: gray_back.png
+data:
+  value: 12
+  suit: Diamonds
+qty: 1
+---
+name: 2_of_hearts
+sdfv: 0.1
+img: 2_of_hearts.png
+back: gray_back.png
+data:
+  value: 2
+  suit: Hearts
+qty: 1
+---
+name: 3_of_hearts
+sdfv: 0.1
+img: 3_of_hearts.png
+back: gray_back.png
+data:
+  value: 3
+  suit: Hearts
+qty: 1
+---
+name: 4_of_hearts
+sdfv: 0.1
+img: 4_of_hearts.png
+back: gray_back.png
+data:
+  value: 4
+  suit: Hearts
+qty: 1
+---
+name: 5_of_hearts
+sdfv: 0.1
+img: 5_of_hearts.png
+back: gray_back.png
+data:
+  value: 5
+  suit: Hearts
+qty: 1
+---
+name: 6_of_hearts
+sdfv: 0.1
+img: 6_of_hearts.png
+back: gray_back.png
+data:
+  value: 6
+  suit: Hearts
+qty: 1
+---
+name: 7_of_hearts
+sdfv: 0.1
+img: 7_of_hearts.png
+back: gray_back.png
+data:
+  value: 7
+  suit: Hearts
+qty: 1
+---
+name: 8_of_hearts
+sdfv: 0.1
+img: 8_of_hearts.png
+back: gray_back.png
+data:
+  value: 8
+  suit: Hearts
+qty: 1
+---
+name: 9_of_hearts
+sdfv: 0.1
+img: 9_of_hearts.png
+back: gray_back.png
+data:
+  value: 9
+  suit: Hearts
+qty: 1
+---
+name: 10_of_hearts
+sdfv: 0.1
+img: 10_of_hearts.png
+back: gray_back.png
+data:
+  value: 10
+  suit: Hearts
+qty: 1
+---
+name: ace_of_hearts
+sdfv: 0.1
+img: ace_of_hearts.png
+back: gray_back.png
+data:
+  value: 1
+  suit: Hearts
+qty: 1
+---
+name: jack_of_hearts
+sdfv: 0.1
+img: jack_of_hearts.png
+back: gray_back.png
+data:
+  value: 11
+  suit: Hearts
+qty: 1
+---
+name: king_of_hearts
+sdfv: 0.1
+img: king_of_hearts.png
+back: gray_back.png
+data:
+  value: 13
+  suit: Hearts
+qty: 1
+---
+name: queen_of_hearts
+sdfv: 0.1
+img: queen_of_hearts.png
+back: gray_back.png
+data:
+  value: 12
+  suit: Hearts
+qty: 1
+---
+name: 2_of_spades
+sdfv: 0.1
+img: 2_of_spades.png
+back: gray_back.png
+data:
+  value: 2
+  suit: Spades
+qty: 1
+---
+name: 3_of_spades
+sdfv: 0.1
+img: 3_of_spades.png
+back: gray_back.png
+data:
+  value: 3
+  suit: Spades
+qty: 1
+---
+name: 4_of_spades
+sdfv: 0.1
+img: 4_of_spades.png
+back: gray_back.png
+data:
+  value: 4
+  suit: Spades
+qty: 1
+---
+name: 5_of_spades
+sdfv: 0.1
+img: 5_of_spades.png
+back: gray_back.png
+data:
+  value: 5
+  suit: Spades
+qty: 1
+---
+name: 6_of_spades
+sdfv: 0.1
+img: 6_of_spades.png
+back: gray_back.png
+data:
+  value: 6
+  suit: Spades
+qty: 1
+---
+name: 7_of_spades
+sdfv: 0.1
+img: 7_of_spades.png
+back: gray_back.png
+data:
+  value: 7
+  suit: Spades
+qty: 1
+---
+name: 8_of_spades
+sdfv: 0.1
+img: 8_of_spades.png
+back: gray_back.png
+data:
+  value: 8
+  suit: Spades
+qty: 1
+---
+name: 9_of_spades
+sdfv: 0.1
+img: 9_of_spades.png
+back: gray_back.png
+data:
+  value: 9
+  suit: Spades
+qty: 1
+---
+name: 10_of_spades
+sdfv: 0.1
+img: 10_of_spades.png
+back: gray_back.png
+data:
+  value: 10
+  suit: Spades
+qty: 1
+---
+name: ace_of_spades
+sdfv: 0.1
+img: ace_of_spades.png
+back: gray_back.png
+data:
+  value: 1
+  suit: Spades
+qty: 1
+---
+name: jack_of_spades
+sdfv: 0.1
+img: jack_of_spades.png
+back: gray_back.png
+data:
+  value: 11
+  suit: Spades
+qty: 1
+---
+name: king_of_spades
+sdfv: 0.1
+img: king_of_spades.png
+back: gray_back.png
+data:
+  value: 13
+  suit: Spades
+qty: 1
+---
+name: queen_of_spades
+sdfv: 0.1
+img: queen_of_spades.png
+back: gray_back.png
+data:
+  value: 12
+  suit: Spades
+qty: 1
+---
+name: black_joker
+sdfv: 0.1
+img: black_joker.png
+back: gray_back.png
+data:
+  value: 0
+  suit: Joker
+qty: 1
+---
+name: red_joker
+sdfv: 0.1
+img: red_joker.png
+back: gray_back.png
+data:
+  value: 0
+  suit: Joker
+qty: 1

@@ -1,7 +1,7 @@
-# Great Dalmuti deck of cards for Foundry VTT
+# Great Dalmuti (and other examples) deck of cards for Foundry VTT
 
-## make the deck
+## make the deck(s)
 
 ```sh
-zip -r great-dalmuti deck.yaml images
+./make.sh
 ```
