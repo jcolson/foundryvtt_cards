@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 rm *.zip
-zip -r Great_Dalmuti dalmuti/*
-zip -r 54_Playing_Cards 54cards/*
+zip -r Great-Dalmuti Great-Dalmuti/*
+zip -r 54-Playing-Cards 54-Playing-Cards/*
