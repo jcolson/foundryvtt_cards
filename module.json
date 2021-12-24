@@ -3,26 +3,44 @@
     "title": "FoundryVTT Cards",
     "description": "Additional card decks for FoundryVTT.",
     "author": "Jay Colson",
+    "authors": [
+        {
+            "name": "Jay Colson",
+            "email": "jay+foundry@karma.net",
+            "url": "https://github.com/jcolson",
+            "discord": "blackntan#0069"
+        }
+    ],
     "version": "1.0.0",
     "minimumCoreVersion": "9.238",
-    "compatibleCoreVersion": "9.238",
-    "packs": [{
-        "name": "Great-Dalmuti",
-        "label": "Great-Dalmuti",
-        "path": "packs/Great-Dalmuti.json",
-        "entity": "Cards",
-        "module": "FoundryVTTCards"
-      },{
-        "name": "54-Playing-Cards",
-        "label": "54-Playing-Cards",
-        "path": "packs/54-Playing-Cards.json",
-        "entity": "Cards",
-        "module": "FoundryVTTCards"
-      },{
-        "name": "Three-Dragon-Ante",
-        "label": "Three-Dragon-Ante",
-        "path": "packs/Three-Dragon-Ante.json",
-        "entity": "Cards",
-        "module": "FoundryVTTCards"
-      }]
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "Great-Dalmuti",
+            "label": "Great-Dalmuti",
+            "path": "packs/Great-Dalmuti.json",
+            "entity": "Cards",
+            "module": "FoundryVTTCards"
+        },
+        {
+            "name": "54-Playing-Cards",
+            "label": "54-Playing-Cards",
+            "path": "packs/54-Playing-Cards.json",
+            "entity": "Cards",
+            "module": "FoundryVTTCards"
+        },
+        {
+            "name": "Three-Dragon-Ante",
+            "label": "Three-Dragon-Ante",
+            "path": "packs/Three-Dragon-Ante.json",
+            "entity": "Cards",
+            "module": "FoundryVTTCards"
+        }
+    ],
+    "manifest": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/module.json",
+    "url": "https://github.com/jcolson/foundryvtt_cards",
+    "download": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/FoundryVTTCards.zip",
+    "readme": "https://github.com/jcolson/foundryvtt_cards/blob/master/README.md",
+    "bugs": "https://github.com/jcolson/foundryvtt_cards/issues",
+    "changelog": "https://github.com/jcolson/foundryvtt_cards/releases",
 }
