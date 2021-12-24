@@ -1,6 +1,6 @@
 const yaml = require('js-yaml');
 const fs = require('fs');
-let decks = ['Great-Dalmuti','54-Playing-Cards','Three-Dragon-Ante'];
+let decks = ['Great-Dalmuti', '54-Playing-Cards', 'Three-Dragon-Ante'];
 for (let deck of decks) {
     let cards = yaml.loadAll(fs.readFileSync('../' + deck + '/Deck.yaml', 'utf8'));
     let originId = makeid(16);
@@ -60,7 +60,8 @@ for (let deck of decks) {
 }
 }`;
     try {
-        fs.writeFileSync('../' + deck + '/' + deck + '.yaml', deckString);
+        fs.mkdirSync('../' + deck + '/packs/', { recursive: true });
+        fs.writeFileSync('../' + deck + '/packs/' + deck + '.yaml', deckString);
     } catch (error) {
         console.error(error);
     }
