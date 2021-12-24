@@ -9,19 +9,19 @@
     "packs": [{
         "name": "Great-Dalmuti",
         "label": "Great-Dalmuti",
-        "path": "packs/Great-Dalmuti.yaml",
+        "path": "packs/Great-Dalmuti.json",
         "entity": "Cards",
         "module": "FoundryVTTCards"
       },{
         "name": "54-Playing-Cards",
         "label": "54-Playing-Cards",
-        "path": "packs/54-Playing-Cards.yaml",
+        "path": "packs/54-Playing-Cards.json",
         "entity": "Cards",
         "module": "FoundryVTTCards"
       },{
         "name": "Three-Dragon-Ante",
         "label": "Three-Dragon-Ante",
-        "path": "packs/Three-Dragon-Ante.yaml",
+        "path": "packs/Three-Dragon-Ante.json",
         "entity": "Cards",
         "module": "FoundryVTTCards"
       }]
