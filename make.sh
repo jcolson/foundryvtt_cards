@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 rm *.zip
-zip -r FoundryVTTCards.zip package.json
+zip -r FoundryVTTCards.zip module.json
 cd Great-Dalmuti
 zip -ur ../FoundryVTTCards.zip packs/Great-Dalmuti.yaml images
 cd ..
