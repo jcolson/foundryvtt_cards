@@ -1,0 +1,28 @@
+{
+    "name": "FoundryVTTCards",
+    "title": "FoundryVTT Cards",
+    "description": "Additional card decks for FoundryVTT.",
+    "author": "Jay Colson",
+    "version": "1.0.0",
+    "minimumCoreVersion": "9.238",
+    "compatibleCoreVersion": "9.238",
+    "packs": [{
+        "name": "Great-Dalmuti",
+        "label": "Great-Dalmuti",
+        "path": "packs/Great-Dalmuti.yaml",
+        "entity": "Deck",
+        "module": "FoundryVTTCards"
+      },{
+        "name": "54-Playing-Cards",
+        "label": "54-Playing-Cards",
+        "path": "packs/54-Playing-Cards.yaml",
+        "entity": "Deck",
+        "module": "FoundryVTTCards"
+      },{
+        "name": "Three-Dragon-Ante",
+        "label": "Three-Dragon-Ante",
+        "path": "packs/Three-Dragon-Ante.yaml",
+        "entity": "Deck",
+        "module": "FoundryVTTCards"
+      }]
+}
