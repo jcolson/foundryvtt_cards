@@ -57,19 +57,19 @@ for (let deck of decks) {
     "default": 0
 }
 }`;
-/**
-,"flags": {
-  "exportSource": {
-    "world": "jaysworld",
-    "system": "dnd5e",
-    "coreVersion": "9.238",
-    "systemVersion": "1.5.6"
-  }
-}
- */
+    /**
+    ,"flags": {
+      "exportSource": {
+        "world": "jaysworld",
+        "system": "dnd5e",
+        "coreVersion": "9.238",
+        "systemVersion": "1.5.6"
+      }
+    }
+     */
     try {
         fs.mkdirSync('../' + deck + '/packs/', { recursive: true });
-        fs.writeFileSync('../' + deck + '/packs/' + deck + '.db', deckString);
+        fs.writeFileSync('../' + deck + '/packs/' + deck + '.db', JSON.stringify(JSON.parse(deckString)));
     } catch (error) {
         console.error(error);
     }
