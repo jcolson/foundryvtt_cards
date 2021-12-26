@@ -6,6 +6,7 @@ for (let deck of decks) {
     let originId = makeid(16);
     let sortValue = 0;
     let deckString = `{
+    "_id":"${originId}",
     "name": "${deck}",
     "type": "deck",
     "description": "${deck} deck",
