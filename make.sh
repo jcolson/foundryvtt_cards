@@ -2,11 +2,11 @@
 rm *.zip
 zip -r FoundryVTTCards.zip module.json
 cd Great-Dalmuti
-zip -ur ../FoundryVTTCards.zip packs/Great-Dalmuti.yaml images
+zip -ur ../FoundryVTTCards.zip packs/Great-Dalmuti.json images
 cd ..
 cd 54-Playing-Cards
-zip -r ../FoundryVTTCards.zip packs/54-Playing-Cards.yaml images
+zip -r ../FoundryVTTCards.zip packs/54-Playing-Cards.json images
 cd ..
 cd Three-Dragon-Ante
-zip -r ../FoundryVTTCards.zip packs/Three-Dragon-Ante.yaml images
+zip -r ../FoundryVTTCards.zip packs/Three-Dragon-Ante.json images
 cd ..

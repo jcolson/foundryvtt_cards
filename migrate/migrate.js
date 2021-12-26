@@ -62,7 +62,7 @@ for (let deck of decks) {
 }`;
     try {
         fs.mkdirSync('../' + deck + '/packs/', { recursive: true });
-        fs.writeFileSync('../' + deck + '/packs/' + deck + '.yaml', deckString);
+        fs.writeFileSync('../' + deck + '/packs/' + deck + '.json', deckString);
     } catch (error) {
         console.error(error);
     }
