@@ -19,19 +19,19 @@
             "name": "Great-Dalmuti",
             "label": "Great-Dalmuti",
             "path": "packs/Great-Dalmuti.yaml",
-            "entity": "Cards"
+            "type": "Cards"
         },
         {
             "name": "54-Playing-Cards",
             "label": "54-Playing-Cards",
             "path": "packs/54-Playing-Cards.yaml",
-            "entity": "Cards"
+            "type": "Cards"
         },
         {
             "name": "Three-Dragon-Ante",
             "label": "Three-Dragon-Ante",
             "path": "packs/Three-Dragon-Ante.yaml",
-            "entity": "Cards"
+            "type": "Cards"
         }
     ],
     "manifest": "https://github.com/jcolson/foundryvtt_cards/releases/latest/download/module.json",
