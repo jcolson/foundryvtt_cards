@@ -16,21 +16,9 @@
     "compatibleCoreVersion": "9",
     "packs": [
         {
-            "name": "Great-Dalmuti",
-            "label": "Great-Dalmuti",
-            "path": "packs/Great-Dalmuti.db",
-            "type": "Cards"
-        },
-        {
-            "name": "54-Playing-Cards",
-            "label": "54-Playing-Cards",
-            "path": "packs/54-Playing-Cards.db",
-            "type": "Cards"
-        },
-        {
-            "name": "Three-Dragon-Ante",
-            "label": "Three-Dragon-Ante",
-            "path": "packs/Three-Dragon-Ante.db",
+            "name": "FoundryVTTCards",
+            "label": "FoundryVTTCards",
+            "path": "packs/FoundryVTTCards.db",
             "type": "Cards"
         }
     ],

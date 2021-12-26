@@ -1,5 +1,12 @@
+const moduleName = 'FoundryVTTCards';
 const yaml = require('js-yaml');
 const fs = require('fs');
+let packDb = `../${moduleName}/packs/${moduleName}.db`;
+try {
+    fs.unlinkSync(packDb)
+} catch (error) {
+    console.error(error);
+}
 let decks = ['Great-Dalmuti', '54-Playing-Cards', 'Three-Dragon-Ante'];
 for (let deck of decks) {
     let cards = yaml.loadAll(fs.readFileSync('../' + deck + '/Deck.yaml', 'utf8'));
@@ -10,7 +17,7 @@ for (let deck of decks) {
     "name": "${deck}",
     "type": "deck",
     "description": "${deck} deck",
-    "img": "modules/FoundryVTTCards/images/${cards[0].back}",
+    "img": "modules/${moduleName}/images/${cards[0].back}",
     "data": {},
     "cards": `;
     let newCards = [];
@@ -22,7 +29,7 @@ for (let deck of decks) {
         for (let i = 0; i < card.qty; i++) {
             let newCard = {};
             newCard.name = card.name;
-            newCard.faces = [{ name: card.name, img: 'modules/FoundryVTTCards/images/' + img, text: '' }]
+            newCard.faces = [{ name: card.name, img: `modules/${moduleName}/images/${img}`, text: '' }]
             newCard.width = 2;
             newCard.height = 3;
             newCard.rotation = 0;
@@ -68,8 +75,9 @@ for (let deck of decks) {
     }
      */
     try {
-        fs.mkdirSync('../' + deck + '/packs/', { recursive: true });
-        fs.writeFileSync('../' + deck + '/packs/' + deck + '.db', JSON.stringify(JSON.parse(deckString)));
+        fs.mkdirSync(`../${moduleName}/packs/`, { recursive: true });
+        console.info(`Writing ${deck} now ...`);
+        fs.appendFileSync(packDb, JSON.stringify(JSON.parse(deckString)) + '\n');
     } catch (error) {
         console.error(error);
     }

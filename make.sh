@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 rm *.zip
-zip -r FoundryVTTCards.zip module.json
+cd FoundryVTTCards
+zip -r ../FoundryVTTCards.zip .
+cd ..
 cd Great-Dalmuti
-zip -ur ../FoundryVTTCards.zip packs/Great-Dalmuti.db images
+zip -ur ../FoundryVTTCards.zip images
 cd ..
 cd 54-Playing-Cards
-zip -r ../FoundryVTTCards.zip packs/54-Playing-Cards.db images
+zip -r ../FoundryVTTCards.zip images
 cd ..
 cd Three-Dragon-Ante
-zip -r ../FoundryVTTCards.zip packs/Three-Dragon-Ante.db images
+zip -r ../FoundryVTTCards.zip images
 cd ..
