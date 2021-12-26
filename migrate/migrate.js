@@ -10,7 +10,7 @@ for (let deck of decks) {
     "name": "${deck}",
     "type": "deck",
     "description": "${deck} deck",
-    "img": "images/${cards[0].back}",
+    "img": "modules/FoundryVTTCards/images/${cards[0].back}",
     "data": {},
     "cards": `;
     let newCards = [];
@@ -22,7 +22,7 @@ for (let deck of decks) {
         for (let i = 0; i < card.qty; i++) {
             let newCard = {};
             newCard.name = card.name;
-            newCard.faces = [{ name: card.name, img: 'images/' + img, text: '' }]
+            newCard.faces = [{ name: card.name, img: 'modules/FoundryVTTCards/images/' + img, text: '' }]
             newCard.width = 2;
             newCard.height = 3;
             newCard.rotation = 0;
@@ -51,7 +51,14 @@ for (let deck of decks) {
 "height": 3,
 "rotation": 0,
 "displayCount": true,
-"flags": {
+"folder": null,
+"sort": 0,
+"permission": {
+    "default": 0
+}
+}`;
+/**
+,"flags": {
   "exportSource": {
     "world": "jaysworld",
     "system": "dnd5e",
@@ -59,10 +66,10 @@ for (let deck of decks) {
     "systemVersion": "1.5.6"
   }
 }
-}`;
+ */
     try {
         fs.mkdirSync('../' + deck + '/packs/', { recursive: true });
-        fs.writeFileSync('../' + deck + '/packs/' + deck + '.json', deckString);
+        fs.writeFileSync('../' + deck + '/packs/' + deck + '.db', deckString);
     } catch (error) {
         console.error(error);
     }

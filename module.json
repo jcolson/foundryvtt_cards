@@ -18,19 +18,19 @@
         {
             "name": "Great-Dalmuti",
             "label": "Great-Dalmuti",
-            "path": "packs/Great-Dalmuti.yaml",
+            "path": "packs/Great-Dalmuti.db",
             "type": "Cards"
         },
         {
             "name": "54-Playing-Cards",
             "label": "54-Playing-Cards",
-            "path": "packs/54-Playing-Cards.yaml",
+            "path": "packs/54-Playing-Cards.db",
             "type": "Cards"
         },
         {
             "name": "Three-Dragon-Ante",
             "label": "Three-Dragon-Ante",
-            "path": "packs/Three-Dragon-Ante.yaml",
+            "path": "packs/Three-Dragon-Ante.db",
             "type": "Cards"
         }
     ],
