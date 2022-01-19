@@ -12,3 +12,6 @@ cd ..
 cd Three-Dragon-Ante
 zip -ur ../FoundryVTTCards.zip images
 cd ..
+cd Tarot
+zip -ur ../FoundryVTTCards.zip images
+cd ..

@@ -1,8 +1,9 @@
-# Three decks of cards for FoundryVTT
+# Four decks of cards for FoundryVTT
 
 - The Great Dalmuti
 - 54 Playing Cards (standard 52 card deck + 2 Jokers)
 - Three Dragon Ante
+- Tarot Card Deck
 
 ## To Install in your Foundry v9 instance
 
