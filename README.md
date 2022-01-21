@@ -14,7 +14,7 @@
 - Paste this url `https://github.com/jcolson/foundryvtt_cards/releases/latest/download/module.json` in the **Manifest URL** field.
 - Click on the **Install Module** button.
 
-Three new card decks will be available for you to import from a compendium with the name **FoundryVTTCards**.
+All the new card decks will be available for you to import from a compendium with the name **FoundryVTTCards**.
 
 Happy Gaming!
 
