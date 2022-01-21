@@ -4,7 +4,7 @@
 - 54 Playing Cards (standard 52 card deck + 2 Jokers)
 - Three Dragon Ante
 - Tarot Card Deck
-- Ddragon Age Deck
+- Dragon Age Deck
 
 ## To Install in your Foundry v9 instance
 
