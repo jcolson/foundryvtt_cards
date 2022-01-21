@@ -1,4 +1,4 @@
-# Four decks of cards for FoundryVTT
+# New Decks of Cards for FoundryVTT
 
 - The Great Dalmuti
 - 54 Playing Cards (standard 52 card deck + 2 Jokers)
