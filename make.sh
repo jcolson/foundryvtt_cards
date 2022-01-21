@@ -15,3 +15,6 @@ cd ..
 cd Tarot
 zip -ur ../FoundryVTTCards.zip images
 cd ..
+cd Dragon-Age
+zip -ur ../FoundryVTTCards.zip images
+cd ..
