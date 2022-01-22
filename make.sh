@@ -18,3 +18,6 @@ cd ..
 cd Dragon-Age
 zip -ur ../FoundryVTTCards.zip images
 cd ..
+cd Tarokka
+zip -ur ../FoundryVTTCards.zip images
+cd ..

@@ -5,6 +5,7 @@
 - Three Dragon Ante
 - Tarot Card Deck
 - Dragon Age Deck
+- Tarokka Deck
 
 ## To Install in your Foundry v9 instance
 
